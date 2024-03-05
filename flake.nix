@@ -12,17 +12,9 @@
       pkgs = nixpkgs.legacyPackages."${system}";
       in {
         anzu-moji = pkgs.callPackage ./anzu-moji {};
-        asobifont = pkgs.callPackage ./asobifont {};
         azukifont = pkgs.callPackage ./azukifont {};
-        honyaji-re = pkgs.callPackage ./honyaji-re {};
-        huifont = pkgs.callPackage ./huifont {};
-        mitimasu = pkgs.callPackage ./mitimasu {};
-        nagayama-kai = pkgs.callPackage ./nagayama-kai {};
         rii-tegaki-fude = pkgs.callPackage ./rii-tegaki-fude {};
         rii-tegaki-n = pkgs.callPackage ./rii-tegaki-n {};
-        shigotofont = pkgs.callPackage ./shigotofont {};
-        tanuki-magic = pkgs.callPackage ./tanuki-magic {};
-        uzurafont = pkgs.callPackage ./uzurafont {};
       });
     };
 }
