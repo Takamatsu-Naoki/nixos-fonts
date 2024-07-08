@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   version = "1.0.0";
   src = fetchzip {
     url = "http://aoirii.babyblue.jp/font/riitn/riitnr.zip";
-    hash = "sha256-Z04kp3j+WIzZZ9nURm5ggZcp3BNG/tbv2JhhCvmb5Pc";
+    hash = "sha256-zhkdMlgbpssk9tJraLCw+iREY4QFiZlay+6WH+/riaE";
   };
 
   installPhase = ''
