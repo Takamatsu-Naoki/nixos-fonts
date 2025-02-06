@@ -16,6 +16,7 @@
         rii-tegaki-fude = pkgs.callPackage ./rii-tegaki-fude {};
         rii-tegaki-n = pkgs.callPackage ./rii-tegaki-n {};
         coming-soon = pkgs.callPackage ./coming-soon {};
+        logistra = pkgs.callPackage ./logistra {};
       });
     };
 }

@@ -1,11 +1,12 @@
 {stdenv, fetchzip} :
 
 stdenv.mkDerivation {
-  pname = "anzu-moji";
+  pname = "logistra";
   version = "1.0.0";
   src = fetchzip {
-    url = "https://apricot.ciao.jp/font/ap1.zip";
-    hash = "sha256-FMe/seWkZ4Ni+mGzknpfmb+51HAJNUihPt2K2BpedaU";
+    url = "https://www.1001fonts.com/download/logistra.zip";
+    hash = "sha256-/A4gSC5Kjh8Xzy0+B0zoTGyA/NyEd3nSIvY5EFdnOhw";
+    stripRoot = false;
   };
 
   installPhase = ''
